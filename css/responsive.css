@@ -26,32 +26,32 @@
     .content-slide-box-8 {
         display: none;
     }
-    .content-slide-box {
-        width: 303px
+    .trip-right-img {
+        width: 70%;
+    }
+    .travel-blog-footer {
+        font-size: 11px;
     }
     .gallery-images {
-        width: 80px;
-        height: 50px;
+        width: 81px;
+        height: 60px;
     }
     .gallery-images .media-icon i,
     .popular-artical-img .media-icon i {
         font-size: 25px;
     }
-    .trip-right-img {
-        width: 200px;
+    .photo-gallery ul li {
+        padding: 0px 4px 10px;
     }
     .trending-items-single-top .travel-blog-heading {
         font-size: 27px;
-    }
-    .trending-bottom-single-box {
-        width: 29.8%;
     }
     .ad-image {
         padding-left: 0px;
     }
     .article-single-box .country {
         left: 74%;
-        top: 43%;
+        top: 40%;
     }
     .follower-list-item:not(:last-child) {
         margin-right: 14px;
@@ -61,9 +61,6 @@
     }
     .popular-artical-img {
         margin-right: 5px;
-    }
-    .travel-blog-footer {
-        font-size: 11px;
     }
     .popular-artical-content {
         vertical-align: sub;
@@ -104,20 +101,19 @@
         display: none;
     }
     .content-slide-box {
-        width: 235px;
-        height: 250px;
+        height: 300px;
     }
     .photo-gallery ul li {
-        padding: 0 4.5px 10px;
+        padding: 0 4px 10px;
     }
     .gallery-images {
-        width: 97px;
+        width: 98px;
     }
     .about-me {
         margin-top: 30px;
     }
-    .about-me-box {
-        padding: 0 15%;
+    .check {
+        padding-top: 0;
     }
     .single-check {
         padding: 300px 20px 20px 20px;
@@ -125,36 +121,31 @@
     .trending-items-single-top .travel-blog-heading {
         font-size: 30px;
     }
-    .trending-bottom-single-box:not(:last-child) {
-        margin-right: 22px;
-    }
     .ad-image {
         padding-left: 0px;
     }
     .weather img {
-        margin-left: 30%;
-        width: 330px;
         margin-top: 20px;
     }
     .follower-list-item:not(:last-child) {
         margin-right: 70px;
     }
     .popular-artical-img {
-        width: 20%;
+        height: 150px;
+    }
+    .popular-artical-content .travel-blog-image-content-heading a {
+        font-size: 20px;
+        line-height: 35px;
     }
     .footer-post-image {
         width: 31%;
         height: 40px;
     }
-    .footer-destinations li a {
-        font-size: 12px;
-    }
-    .footer-destinations li::before {
-        top: 6px;
-        font-size: 10px;
-    }
     .footer-tags ul li a {
         padding: 3px 10px;
+    }
+    .footer-title {
+        font-size: 14px;
     }
     .footer-slid .col-20:nth-child(4) {
         display: none;
@@ -165,24 +156,10 @@
     .footer-slid .col-20 {
         width: 33.33%;
     }
-    .check {
-        padding-top: 0;
-    }
-    .copyright {
-        font-size: 11px;
-        padding-top: 30px;
-    }
-    .footer-social-icon li a i {
-        font-size: 13px;
-    }
-    .footer-social-icon {
-        float: right;
-        padding-top: 25px;
-    }
 }
 
 
-/* Extra Small Device below 576px*/
+/* Small Device below 767px*/
 
 @media (max-width:767px) {
     .logo-image {
@@ -211,69 +188,62 @@
         display: none;
     }
     .content-slide-box {
-        width: 255px;
         height: 250px;
+        margin-bottom: 30px;
+    }
+    .trip-menu {
+        float: none;
+        visibility: hidden;
     }
     .trip-left {
         margin-bottom: 30px;
     }
     .gallery-images {
-        width: 143px;
-        height: 80px;
+        width: 97px;
+        height: 55px;
     }
     .photo-gallery ul li {
-        padding: 0 4.4px 10px;
+        padding: 0 4px 10px;
     }
     .about-me {
         margin-top: 30px;
     }
-    .about-me-box {
-        padding: 0 15%;
-    }
     .check {
         padding-top: 0;
+        padding-bottom: 0;
     }
     .single-check {
         padding: 250px 20px 20px 20px;
-    }
-    .single-check .image-content h4 {
-        font-size: 16px;
-        line-height: 25px;
-    }
-    .single-check-content .time {
-        font-size: 10px;
+        margin-bottom: 30px;
     }
     .trending-items-single-top .travel-blog-heading {
-        font-size: 22px;
-        line-height: 0px;
+        font-size: 18px;
+        padding: 0;
+    }
+    .trending-items-single-top .travel-blog-location {
+        display: none;
     }
     .trending-bottom-single-box {
-        display: inline-block;
-        width: 29%;
+        margin-bottom: 30px;
     }
-    .artical-image {
-        height: 250px;
+    .ad-image {
+        padding-left: 0;
     }
     .article-single-box .country {
-        left: 83%;
-        top: 54%;
+        visibility: hidden;
     }
     .weather img {
         margin-top: 30px;
     }
     .follower-list-item:not(:last-child) {
-        margin-right: 70px;
+        margin-right: 20px;
     }
     .popular-artical-img {
-        height: 110px;
+        height: 100px;
     }
-    .footer-post-image {
-        height: 80px;
-        margin: 0px 2px 4px;
-    }
-    .footer-destinations li::before {
-        top: 6px;
-        font-size: 10px;
+    .footer-post,
+    .footer-destinations {
+        padding-top: 30px;
     }
     .footer-slid .col-20:nth-child(3) {
         display: none;
@@ -287,21 +257,103 @@
     .footer-slid .col-20 {
         width: 50%;
     }
-    .copyright {
-        text-align: center;
-    }
     .footer-social-icon {
         text-align: center;
         float: none;
         padding-top: 0;
     }
-    .footer-post,
-    .footer-destinations {
-        padding-top: 30px;
+    .copyright {
+        text-align: center;
     }
 }
 
 
-/* Small Device :550px*/
+/* extra Small Device up to 550px*/
 
-@media only screen and (min-width:576px) and (max-width:767px) {}
+@media only screen and (min-width:576px) and (max-width:767px) {
+    .trip-menu {
+        visibility: visible;
+        float: right;
+    }
+    .trip-right-img {
+        height: 150px;
+    }
+    .single-check .country {
+        visibility: visible;
+    }
+    .trending-items-single-top .travel-blog-heading {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .trending-items-single-top .travel-blog-location {
+        display: initial;
+    }
+    .article-single-box .country {
+        visibility: visible;
+        left: 82%;
+        top: 57%;
+    }
+    .artical-image {
+        height: 320px;
+    }
+    .follower-list-item:not(:last-child) {
+        margin-right: 50px;
+    }
+    .popular-artical-content .travel-blog-image-content-heading a {
+        font-size: 18px;
+        line-height: 25px;
+    }
+}
+
+
+/* Device Below 400px */
+
+@media only screen and (max-width:400px) {
+    .trip-left .author-date,
+    .trip-left .comment-like {
+        float: none;
+    }
+    .trending-items-single-top .travel-blog-heading {
+        font-size: 15px;
+        margin: 0;
+    }
+    .trending-items-single-top .travel-blog-heading {
+        padding: 0;
+    }
+    .trending-items-single-top .travel-blog-footer {
+        font-size: 10px;
+        margin-bottom: 30px;
+    }
+    .trending-items-single-top .travel-blog-content {
+        padding: 0 5px;
+    }
+    .single-check-content.image-content h4 {
+        font-size: 20px;
+        line-height: 22px;
+    }
+    .artical-info {
+        font-size: 10px;
+    }
+    .author {
+        padding-right: 0px;
+    }
+    .follower-list-item:not(:last-child) {
+        margin-right: 40px;
+        margin-bottom: 20px;
+    }
+    .popular-artical-img {
+        width: 100%;
+        margin-right: 0px;
+        height: 130px;
+    }
+    .popular-artical-content {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .trip-right-img {
+        width: 100%;
+    }
+    .single-check .country {
+        visibility: hidden;
+    }
+}

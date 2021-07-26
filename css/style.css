@@ -363,7 +363,7 @@ a:hover {
 
 .content-slide-box {
     background: url('../images/home-slide/1.jpg') no-repeat center/cover;
-    width: 290px;
+    width: auto;
     height: 440px;
     position: relative;
     cursor: pointer;
@@ -425,7 +425,7 @@ a:hover {
 }
 
 .carousel-control-next i {
-    right: 0;
+    right: 15px;
 }
 
 .slide-button {
@@ -603,8 +603,8 @@ a:hover {
 }
 
 .travel-blog-footer {
-    display: block ruby;
     font-size: 12px;
+    margin: 10px 0;
 }
 
 .author {
@@ -618,8 +618,14 @@ a:hover {
     color: #01b7f2;
 }
 
+.author-date {
+    float: left;
+    display: block;
+}
+
 .comment-like {
     float: right;
+    display: block;
 }
 
 .like {
@@ -639,8 +645,8 @@ a:hover {
 }
 
 .trip-right-img {
-    width: 140px;
-    height: 80px;
+    width: 50%;
+    height: auto;
     margin-right: 15px;
 }
 
@@ -826,7 +832,7 @@ form input::placeholder {
 .icon {
     position: absolute;
     right: 20px;
-    top: 10px;
+    top: 20px;
 }
 
 .icon i {
@@ -863,21 +869,16 @@ form input::placeholder {
 }
 
 .trending-bottom-single-box {
-    display: inline-block;
-    width: 30.6%;
-}
-
-.trending-bottom-single-box:not(:last-child) {
-    margin-right: 25px;
+    width: 100%;
 }
 
 .trending-img {
     width: 100%;
-    height: 125px;
+    height: 150px;
 }
 
 .trending-blog {
-    padding: 10px 0;
+    padding-top: 10px;
 }
 
 .trending-blog .comment {
@@ -933,6 +934,7 @@ form input::placeholder {
     line-height: 28px;
     font-weight: 600;
     color: #333;
+    padding-top: 15px;
 }
 
 .artical-heading:hover a,
