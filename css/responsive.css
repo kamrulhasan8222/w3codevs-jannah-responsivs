@@ -193,7 +193,7 @@
     }
     .trip-menu {
         float: none;
-        visibility: hidden;
+        display: none;
     }
     .trip-left {
         margin-bottom: 30px;
@@ -272,7 +272,7 @@
 
 @media only screen and (min-width:576px) and (max-width:767px) {
     .trip-menu {
-        visibility: visible;
+        display:block;
         float: right;
     }
     .trip-right-img {
