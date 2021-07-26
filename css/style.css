@@ -491,6 +491,7 @@ a:hover {
     font-weight: 600;
     color: #01b7f2;
     text-transform: uppercase;
+    display:inline-block;
 }
 
 .black-title::before {
